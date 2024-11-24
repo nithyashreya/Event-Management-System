@@ -1,0 +1,166 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    color: #333;
+  }
+  
+  .admin-container {
+    display: flex;
+    min-height: 100vh;
+  }
+  
+  /* Sidebar */
+  .sidebar {
+    width: 250px;
+    background-color: #d10910;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0;
+    position: fixed;
+    height: 100%;
+  }
+  
+  .heading {
+    font-size: 22px;
+    margin-bottom: 15px;
+    color: #fecc16;
+    text-align: center;
+  }
+  
+  .logo-container {
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .logo {
+    width: 100px;
+    height: auto;
+  }
+  
+  .nav-links {
+    width: 100%;
+    text-align: center;
+  }
+  
+  .nav-links a {
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #fecc16;
+    font-size: 16px;
+    transition: background 0.3s ease;
+  }
+  
+  .nav-links a:hover {
+    background-color: #b0070d;
+  }
+  
+  /* Main Dashboard */
+  .dashboard {
+    margin-left: 250px;
+    padding: 20px;
+    flex: 1;
+    background-color: #f8f9fa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .welcome-section {
+    max-width: 600px;
+  }
+  
+  .welcome-section h1 {
+    font-size: 32px;
+    margin-bottom: 15px;
+    color: #333;
+  }
+  
+  .welcome-section h1 .highlight {
+    color: #fecc16;
+  }
+  
+  .welcome-section p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #555;
+  }
+  
+
+/* Form Section */
+.form-section {
+    max-width: 1200px; /* Increase the max width further */
+    margin: 0 auto;
+    padding: 40px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-section h1 {
+    font-size: 32px;
+    color: #d10910;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  
+  .event-form {
+    display: flex;
+    flex-direction: column;
+    gap: 25px; /* Increased gap between form elements */
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-group label {
+    font-size: 18px;
+    margin-bottom: 8px;
+    color: #333;
+  }
+  
+  .form-group input,
+  .form-group textarea {
+    padding: 15px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    width: 100%; /* Make inputs and textareas take full width of the form */
+  }
+  
+  .form-group textarea {
+    resize: vertical;
+    min-height: 200px; /* Increased height for text area */
+  }
+  
+  .submit-btn {
+    background-color: #d10910;
+    color: #fff;
+    border: none;
+    padding: 15px 40px; /* Increase padding for a wider button */
+    font-size: 18px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%; /* Make button take the full width of the form */
+  }
+  
+  .submit-btn:hover {
+    background-color: #b0070d;
+  }
+  
+  
+    
